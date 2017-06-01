@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a15017206.ws_demofragment.FragmentFirst">
+    tools:context="com.example.a15017206.ws_demofragment.FragmentSecond">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -12,16 +12,15 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/tvFrag1"
+            android:id="@+id/tvFrag2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <Button
-            android:id="@+id/btnAddTextFrag1"
+            android:id="@+id/btnAddTextfrag2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add Text" />
+            android:text="Button" />
     </LinearLayout>
-
 </FrameLayout>
